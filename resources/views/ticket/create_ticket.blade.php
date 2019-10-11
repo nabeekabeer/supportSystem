@@ -10,9 +10,6 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-
-
-
 				<div class="panel-heading"><a href="{{ route('dashboard') }}" class="btn btn-info">&nbsp;Go Back</a> &nbsp; &nbsp; &nbsp; &nbsp;Create New Ticket</div>
 				<div class="text-success"><center><?php echo @$su; ?></center></div>
 				<div class="panel-body">

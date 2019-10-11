@@ -15,6 +15,7 @@
 
 				<div class="panel-heading"><a href="{{ route('dashboard') }}" class="btn btn-info">&nbsp;Go Back</a> &nbsp; &nbsp; &nbsp; &nbsp;Create New Ticket</div>
 				<div class="text-success"><center><?php echo @$su; ?></center></div>
+				
 				<div class="panel-body">
 					<div class="col-md-6">
                     <?php  foreach ($data as $value): ?>
