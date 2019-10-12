@@ -19,10 +19,9 @@ class CreateMessagesTable extends Migration
             $table->text('details');
             $table->integer('user_id');
             $table->integer('ticket_id');
-            $table->timestamp('updated_at');
-            $table->timestamp('created_at');
-            $table->foreign('ticket_id')->references('id')->on('tickets')->onDelete('cascade');
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->timestamps();
+            //$table->foreign('ticket_id')->references('id')->on('tickets')->onDelete('cascade');
+            //$table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 
